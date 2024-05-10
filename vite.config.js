@@ -30,7 +30,7 @@ module.exports = defineConfig({
             entry: './src/index/main.js',
             filename: 'index.html',
             template: 'public/index.html',
-            title: 'Weather App',
+            title: 'Blog App',
             chunks: ['chunk-vendors', 'chunk-common', 'index']
         }
     }
